@@ -4,9 +4,8 @@
     <title>Fit Identity</title>
     <meta encoding="utf-8" name="keywords" content="html,css,javascript,jquery">
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="shortcut icon"  href="img/img6.png">
-
 </head>
 <body> 
     <!--main container -->
@@ -37,12 +36,14 @@
             <div>
                 <img src="img/slide1.png">
             </div>
-            <ul class="banner-main">
-                <li>THINK SMARTER.</li>
-                <li>EAT HEALTHIER.</li>
-                <li>MOVE BETTER.</li>
-                <li><button>I WANT TO START TODAY!</button></li>
-            </ul>
+            <div class="banner-main-headings">
+                <ul>
+                    <li>THINK SMARTER.</li>
+                    <li>EAT HEALTHIER.</li>
+                    <li>MOVE BETTER.</li>
+                    <li><button>I WANT TO START TODAY!</button></li>
+                </ul>
+            </div>
             <div class="video">
                 <img src="img/video.png">        
             </div>
@@ -207,7 +208,7 @@
         </div>
         <!-- section-3 -->
         <div class="section-3">
-            <div class="section-3-big-font">
+            <div class="section-3-heading">
                 <b>GET YOUR FIT IDENTITY TODAY!</b>
             </div>
             <div class="section-3-content-left">
@@ -216,13 +217,13 @@
                 </div>
             </div>
             <div class="section-3-content-right">
-                <div class="section-3-normal-text">
+                <div class="section-3-description-1">
                     <p>
                         Start seeing results malesuada magna
                         mollis euismod. Curabitur tempus porttitor.
                     </p>
                 </div>
-                <div class="section-3-tiny-text" 
+                <div class="section-3-description-2" >
                     <p>
                         Mike Karpenko is a transformational fitness coach who has
                         changed the lives of people all over the world. His innovative
@@ -274,7 +275,6 @@
                     <input type="text" placeholder="Search" />
                 </div>
             </div>               
-        
         <div class="footer-icons-fill">
             <div class="footer-fill-navy"></div>
             <div class="footer-fill-green"></div>
